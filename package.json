@@ -1,0 +1,65 @@
+{
+  "name": "@d3p1/nextjs-3d-floating-mesh",
+  "version": "0.0.0",
+  "description": "A 3D floating mesh animation to improve my Next.js skills",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "format:code": "prettier --ignore-path .gitignore --check src",
+    "format:code:fix": "npm run format:code -- --write",
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/d3p1/nextjs-3d-floating-mesh.git"
+  },
+  "author": "C. M. de Picciotto <d3p1@d3p1.dev> (https://d3p1.dev/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3p1/nextjs-3d-floating-mesh/issues"
+  },
+  "homepage": "https://github.com/d3p1/nextjs-3d-floating-mesh#readme",
+  "keywords": [
+    "nextjs",
+    "react",
+    "javascript",
+    "webgl",
+    "threejs",
+    "typescript",
+    "html5",
+    "canvas",
+    "creative-coding",
+    "webgl2",
+    "fiber",
+    "3d",
+    "three",
+    "react-three-fiber"
+  ],
+  "dependencies": {
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.4.0",
+    "next": "15.4.7",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.181.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@d3p1/commitlint-config": "^1.0.1",
+    "@eslint/eslintrc": "^3",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.181.0",
+    "eslint": "^9",
+    "eslint-config-next": "15.1.7",
+    "eslint-config-prettier": "^10.1.5",
+    "husky": "8.0.3",
+    "postcss": "^8",
+    "prettier": "3.0.3",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
