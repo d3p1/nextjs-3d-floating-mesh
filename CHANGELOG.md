@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.0.0...v1.1.0) (2025-11-05)
+
+
+### Features
+
+* init 3d app [[#1](https://github.com/d3p1/nextjs-3d-floating-mesh/issues/1)] ([ed68f6e](https://github.com/d3p1/nextjs-3d-floating-mesh/commit/ed68f6ebbd137327787bc954014ca82e41a176ea))
+
 # 1.0.0 (2025-11-04)
 
 
