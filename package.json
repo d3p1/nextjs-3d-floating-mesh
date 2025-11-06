@@ -1,6 +1,6 @@
 {
   "name": "@d3p1/nextjs-3d-floating-mesh",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A 3D floating mesh animation to improve my Next.js skills",
   "private": true,
   "type": "module",
