@@ -4,7 +4,7 @@
  */
 'use client'
 
-import {OrbitControls} from '@react-three/drei'
+import {Float, OrbitControls} from '@react-three/drei'
 import {Canvas} from '@react-three/fiber'
 
 export default function Page() {
@@ -12,10 +12,12 @@ export default function Page() {
     <Canvas orthographic={true} camera={{position: [1, 1, 1], zoom: 500}}>
       <OrbitControls />
 
-      <mesh>
-        <boxGeometry />
-        <meshNormalMaterial />
-      </mesh>
+      <Float>
+        <mesh>
+          <boxGeometry />
+          <meshNormalMaterial />
+        </mesh>
+      </Float>
     </Canvas>
   )
 }
