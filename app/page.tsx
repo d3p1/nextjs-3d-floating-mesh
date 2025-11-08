@@ -9,12 +9,32 @@ import {Canvas} from '@react-three/fiber'
 
 export default function Page() {
   return (
-    <Canvas orthographic={true} camera={{position: [1, 1, 1], zoom: 500}}>
+    <Canvas
+      orthographic={true}
+      camera={{
+        position: [0, 0, 3],
+        top: 4,
+        right: 4,
+        bottom: -4,
+        left: -4,
+        zoom: 1,
+      }}
+    >
       <OrbitControls />
 
-      <Float>
-        <mesh>
+      <Float floatIntensity={4}>
+        <mesh position={[2, 2, 1]}>
           <boxGeometry />
+          <meshNormalMaterial />
+        </mesh>
+
+        <mesh rotation={[Math.PI / 4, Math.PI / 3, 0]}>
+          <torusGeometry />
+          <meshNormalMaterial />
+        </mesh>
+
+        <mesh position={[-2, -2, -1]}>
+          <sphereGeometry />
           <meshNormalMaterial />
         </mesh>
       </Float>
