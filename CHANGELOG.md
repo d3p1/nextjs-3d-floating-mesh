@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.2.0...v1.3.0) (2025-11-08)
+
+
+### Features
+
+* add floating objects [[#1](https://github.com/d3p1/nextjs-3d-floating-mesh/issues/1)] ([95aff57](https://github.com/d3p1/nextjs-3d-floating-mesh/commit/95aff57bb00653d7fbcf68500ae1083091952e64))
+
 # [1.2.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.1.0...v1.2.0) (2025-11-06)
 
 
