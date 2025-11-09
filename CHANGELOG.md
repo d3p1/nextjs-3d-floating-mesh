@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.3.0...v1.4.0) (2025-11-09)
+
+
+### Features
+
+* improve float intensity [[#1](https://github.com/d3p1/nextjs-3d-floating-mesh/issues/1)] ([ad3d8f6](https://github.com/d3p1/nextjs-3d-floating-mesh/commit/ad3d8f6c0ef63f1af3eaa0ce21168d8dc90246a5))
+
 # [1.3.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.2.0...v1.3.0) (2025-11-08)
 
 
