@@ -1,3 +1,10 @@
+# [1.5.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.4.0...v1.5.0) (2025-11-09)
+
+
+### Features
+
+* add mouse interaction [[#1](https://github.com/d3p1/nextjs-3d-floating-mesh/issues/1)] ([94a8678](https://github.com/d3p1/nextjs-3d-floating-mesh/commit/94a86785fa5eac250714eeb80d1396b1971b35a4))
+
 # [1.4.0](https://github.com/d3p1/nextjs-3d-floating-mesh/compare/v1.3.0...v1.4.0) (2025-11-09)
 
 
