@@ -12,17 +12,17 @@ export default function Page() {
     <Canvas
       orthographic={true}
       camera={{
-        position: [0, 0, 3],
-        top: 4,
-        right: 4,
-        bottom: -4,
-        left: -4,
+        position: [0, 0, 4],
+        top: 6,
+        right: 6,
+        bottom: -6,
+        left: -6,
         zoom: 1,
       }}
     >
       <OrbitControls />
 
-      <Float floatIntensity={4}>
+      <Float floatIntensity={4} rotationIntensity={4}>
         <mesh position={[2, 2, 1]}>
           <boxGeometry />
           <meshNormalMaterial />
